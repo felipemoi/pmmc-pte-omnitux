@@ -1,0 +1,115 @@
+<?xml version="1.0" ?>
+<omnitux version="1.0">
+
+<game_set type="puzzle">
+
+	
+	<!-- the activity title in Omnitux menu will be "Little boy" 
+	in English language (en) -->
+	<title lang="pt">Quebra-cabeça</title>
+
+	<!-- the file "my_activities/my_picture.jpg" will be used 
+	as a thumbnail in the activity selection menu -->
+	<thumbnail>pte/imagens/computador/le.png</thumbnail>
+
+	<menu_index value="300" lang="pt" />
+	
+	<level difficulty="1">
+	
+	<game type="puzzle" xml_version="1.0" lang="*" author="CPI">
+	
+	<rounds>2</rounds>
+	
+	<global_parameters>
+		
+		<game_setup>
+			<!-- amount of pieces - horizontally -->
+			<pieces_amount_x> 2 </pieces_amount_x>
+			<!-- amount of pieces - vertically -->
+			<pieces_amount_y> 2 </pieces_amount_y>
+			<!-- in this example, omnitux will generate
+			a puzzle of 3*3 = 9 puzzles -->
+		</game_setup>
+		
+		<!-- we use a colorful background already supplied in omnitux -->
+		<background>
+			examples/Music_Instruments/background_music.png
+		</background>
+		
+	</global_parameters>
+	
+	<puzzles>
+
+
+		<puzzle>
+			<!-- the image which should become a puzzle -->
+			<image>pte/imagens/computador/le.png</image>
+			
+			<!-- title appearing at the top of the screen -->
+			<text>LINUX EDUCACIONAL</text>
+
+			
+		</puzzle>
+		
+		<puzzle>
+			<!-- the image which should become a puzzle -->
+			<image>pte/imagens/computador/le.png</image>
+			
+			<!-- title appearing at the top of the screen -->
+			<text>Linux Educacional</text>
+
+			
+		</puzzle>
+		
+		
+		
+		<!-- you can add other similar "puzzle" blocks here to
+		create more puzzles in this activity -->
+		
+	</puzzles>
+
+</game>
+
+</level>
+
+<level difficulty="2">
+
+
+<game type="puzzle" xml_version="1.0" lang="*" author="CPI">
+			
+			<rounds>2</rounds>
+
+			<global_parameters>
+				
+				<game_setup>
+					<!-- those global parameters can be overriden for each image file -->
+					<pieces_amount_x> 3 </pieces_amount_x>
+					<pieces_amount_y> 3 </pieces_amount_y>
+					
+				</game_setup>
+				
+
+				<background>
+					default/backgrounds/Whimsy.JPG
+				</background>
+				
+			</global_parameters>
+			
+			<puzzles>
+				<puzzle>
+					<image>pte/imagens/objetos/piano.jpg</image>
+					<text>Piano</text>
+				</puzzle>
+				<puzzle>
+					<image>pte/imagens/transportes/aviao.svg</image>
+					<text>Avião</text>
+				</puzzle>
+		</puzzles>
+
+</game>
+
+</level>		
+		
+</game_set>
+		
+</omnitux>

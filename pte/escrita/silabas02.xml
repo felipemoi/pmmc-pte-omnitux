@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+
+<game_set author="Olav_2">
+
+
+	<title lang="pt">Sílabas</title>
+
+	<tag>writing</tag>
+
+	<thumbnail>default/icons/flags/flag_eu.svg</thumbnail>
+
+	<!-- 
+	No translation required below this line.
+	Translations are *automatically* generated (see tools/activity_tools/generate_activity_from_db.py
+	-->
+	
+		
+        <dict lang="pt" key="ba" value="BA" />
+		
+	<dict lang="pt" key="ca" value="CA" />
+
+        <dict lang="pt" key="pa" value="PA" />
+		
+        <dict lang="pt" key="fa" value="FA" />
+
+
+	<game type="associate">
+		
+		
+		<rounds>10</rounds>
+
+
+		<global_parameters>
+			
+			<game_setup>
+				<type_to_associate>image</type_to_associate>
+				<type_to_drag sort="yes">text</type_to_drag>
+				
+				<!-- amount of items to choose from -->
+				<min_draggable> 4 </min_draggable>
+				<max_draggable> 4 </max_draggable>
+				
+			</game_setup>
+			
+			<item_to_associate>
+				<pos_x>   5 </pos_x> 
+				<pos_y>  10 </pos_y>
+				<width>  90 </width>
+				<height> 40 </height>
+			</item_to_associate>
+
+			<draggable_items_area>
+				<pos_x>  1 </pos_x> 
+				<pos_y>  50 </pos_y>
+				<width>  98 </width>
+				<height> 96 </height>
+				
+				<font_height>10</font_height>
+				
+				<amount_x> 2 </amount_x>
+				<amount_y> 6 </amount_y>
+				
+			</draggable_items_area>
+		
+			
+			<goal>
+				<pos_x>  40 </pos_x> 
+				<pos_y>  40 </pos_y>
+				<width>  10 </width>
+				<height> 10 </height>
+				
+
+			</goal>
+			
+			<background>
+				default/backgrounds/sky_3038760752_291c6ef25f_o.jpg
+			</background>		
+			
+		</global_parameters>
+		
+		<associations>	
+                         <association>
+                                <image>pte/imagens/diversos/casa.svg</image>
+                                <text key="ca" />
+                        </association>
+                      	
+						<association>
+                                <image>pte/imagens/diversos/casa.svg</image>
+                                <text key="ca" />
+                        </association>
+						
+						<association>
+                                <image>pte/imagens/animais/pato.jpg</image>
+                                <text key="pa" />
+                        </association>
+						<association>
+                                <image>pte/imagens/animais/pato.jpg</image>
+                                <text key="pa" />
+                        </association>
+						
+						
+		</associations>
+
+	</game>
+
+</game_set>
+</omnitux>

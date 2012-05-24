@@ -1,0 +1,1137 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux>
+<game_set author="Olav_2">
+
+	<title lang="pt">Letras iniciais - A ao F</title>
+	
+	<thumbnail>pte/imagens/diversos/iniciaisaf.png</thumbnail>
+	
+	<rounds>5</rounds>
+	
+	<tag>writing</tag>
+
+	<menu_index value="400" />
+
+	<game type="associate">
+		
+		<global_parameters>
+		
+			<game_setup>
+				<type_to_associate>image_on_map</type_to_associate>
+				<type_to_drag>image</type_to_drag>
+			
+			<!-- amount of items to choose from -->
+			<min_draggable> 6 </min_draggable>
+			<max_draggable> 6 </max_draggable>
+			
+		</game_setup>
+
+		<map>
+			<image>examples/Alphabet/back.svg</image>
+			<pos_x>   5 </pos_x> 
+			<pos_y>  10 </pos_y>
+			<width>  70 </width>
+			<height> 85 </height>
+		</map>		
+
+		<draggable_items_area>
+			<pos_x>  80 </pos_x> 
+			<pos_y>  10 </pos_y>
+			<width>  15 </width>
+			<height> 80 </height>
+			
+
+			<amount_x> 1 </amount_x>
+			<amount_y> 6 </amount_y>
+			
+		</draggable_items_area>
+	
+		
+	
+		<background>
+			Kot26/liczenie/back1s.png
+		</background>		
+		
+	</global_parameters>
+	
+	<associations>	
+		<association>
+			<image type="to_associate">pte/imagens/natureza/arvore.svg
+				<pos_x>  3 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+			<image type="to_associate">pte/imagens/animais/abelha.svg
+                    <pos_x>  3 </pos_x>
+                    <pos_y>  3 </pos_y>
+                    <width>  27 </width>
+                    <height> 44 </height>
+
+             </image>
+
+
+			<goal>
+				<pos_x>  17 </pos_x> 
+				<pos_y>  34 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">pte/imagens/alfabeto/A.svg
+				<sound>pte/sons/alfabeto/A.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">pte/imagens/esportes/boladepraia.svg
+				<pos_x>  36 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+              <image type="to_associate">pte/imagens/esportes/boladefutebol.svg
+                 <pos_x>  36 </pos_x>
+                 <pos_y>  3 </pos_y>
+                 <width>  27 </width>
+                 <height> 44 </height>
+
+                        </image>
+			<image type="to_associate">pte/imagens/transportes/barco.svg
+				<pos_x>  36 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+			
+			<image type="to_associate">pte/imagens/transportes/bicicleta.svg
+				<pos_x>  36 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+			
+			<goal>
+				<pos_x>  50 </pos_x> 
+				<pos_y>  34 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">pte/imagens/alfabeto/B.svg
+				<sound>pte/sons/alfabeto/B.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+
+
+			<image type="to_associate">pte/imagens/animais/cavalo.svg
+				<pos_x>  69 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+			<image type="to_associate">pte/imagens/animais/cachorro.svg
+				<pos_x>  69 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+			<image type="to_associate">pte/imagens/diversos/casa.svg
+				<pos_x>  69 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+
+			<goal>
+				<pos_x>  84 </pos_x> 
+				<pos_y>  34 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">pte/imagens/alfabeto/C.svg
+				<sound>pte/sons/alfabeto/C.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">pte/imagens/animais/dinossauro.svg
+				<pos_x>  3 </pos_x> 
+				<pos_y>  53 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+
+			<goal>
+				<pos_x>  17 </pos_x> 
+				<pos_y>  82 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">pte/imagens/alfabeto/D.svg
+				<sound>pte/sons/alfabeto/D.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">pte/imagens/animais/elefante.svg
+				<pos_x>  36 </pos_x> 
+				<pos_y>  53 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+
+			<goal>
+				<pos_x>  50 </pos_x> 
+				<pos_y>  82 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">pte/imagens/alfabeto/E.svg
+				<sound>pte/sons/alfabeto/E.ogg </sound>
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">pte/imagens/natureza/flor.svg
+				<pos_x>  69 </pos_x> 
+				<pos_y>  53 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+			</image>
+			<image type="to_associate">pte/imagens/natureza/flor02.svg
+				<pos_x>  69 </pos_x> 
+				<pos_y>  53 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+			</image>
+			
+			<goal>
+				<pos_x>  84 </pos_x> 
+				<pos_y>  82 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">pte/imagens/alfabeto/F.svg
+				<sound>pte/sons/alfabeto/F.ogg</sound>
+			</image>
+		</association>
+
+	</associations>
+
+</game>
+
+<game type="associate">
+		
+		<global_parameters>
+		
+			<game_setup>
+				<type_to_associate>image_on_map</type_to_associate>
+				<type_to_drag>image</type_to_drag>
+			
+			<!-- amount of items to choose from -->
+			<min_draggable> 6 </min_draggable>
+			<max_draggable> 6 </max_draggable>
+			
+		</game_setup>
+
+		<map>
+			<image>examples/Alphabet/back.svg</image>
+			<pos_x>   5 </pos_x> 
+			<pos_y>  10 </pos_y>
+			<width>  70 </width>
+			<height> 85 </height>
+		</map>		
+
+		<draggable_items_area>
+			<pos_x>  80 </pos_x> 
+			<pos_y>  10 </pos_y>
+			<width>  15 </width>
+			<height> 80 </height>
+			
+
+			<amount_x> 1 </amount_x>
+			<amount_y> 6 </amount_y>
+			
+		</draggable_items_area>
+	
+		
+	
+		<background>
+			Kot26/liczenie/back1s.png
+		</background>		
+		
+	</global_parameters>
+	
+	<associations>	
+		<association>
+			<image type="to_associate">pte/imagens/natureza/arvore.svg
+				<pos_x>  3 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+			<image type="to_associate">pte/imagens/animais/abelha.svg
+                    <pos_x>  3 </pos_x>
+                    <pos_y>  3 </pos_y>
+                    <width>  27 </width>
+                    <height> 44 </height>
+
+             </image>
+
+
+			<goal>
+				<pos_x>  17 </pos_x> 
+				<pos_y>  34 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">pte/imagens/alfabeto/A.svg
+				<sound>pte/sons/alfabeto/A.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">pte/imagens/esportes/boladepraia.svg
+				<pos_x>  36 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+              <image type="to_associate">pte/imagens/esportes/boladefutebol.svg
+                 <pos_x>  36 </pos_x>
+                 <pos_y>  3 </pos_y>
+                 <width>  27 </width>
+                 <height> 44 </height>
+
+                        </image>
+			<image type="to_associate">pte/imagens/transportes/barco.svg
+				<pos_x>  36 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+			
+			<image type="to_associate">pte/imagens/transportes/bicicleta.svg
+				<pos_x>  36 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+			
+			<goal>
+				<pos_x>  50 </pos_x> 
+				<pos_y>  34 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">pte/imagens/alfabeto/B.svg
+				<sound>pte/sons/alfabeto/B.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+
+
+			<image type="to_associate">pte/imagens/animais/cavalo.svg
+				<pos_x>  69 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+			<image type="to_associate">pte/imagens/animais/cachorro.svg
+				<pos_x>  69 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+			<image type="to_associate">pte/imagens/diversos/casa.svg
+				<pos_x>  69 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+
+			<goal>
+				<pos_x>  84 </pos_x> 
+				<pos_y>  34 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">pte/imagens/alfabeto/C.svg
+				<sound>pte/sons/alfabeto/C.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">pte/imagens/animais/dinossauro.svg
+				<pos_x>  3 </pos_x> 
+				<pos_y>  53 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+
+			<goal>
+				<pos_x>  17 </pos_x> 
+				<pos_y>  82 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">pte/imagens/alfabeto/D.svg
+				<sound>pte/sons/alfabeto/D.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">pte/imagens/animais/elefante.svg
+				<pos_x>  36 </pos_x> 
+				<pos_y>  53 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+
+			<goal>
+				<pos_x>  50 </pos_x> 
+				<pos_y>  82 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">pte/imagens/alfabeto/E.svg
+				<sound>pte/sons/alfabeto/E.ogg </sound>
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">pte/imagens/natureza/flor.svg
+				<pos_x>  69 </pos_x> 
+				<pos_y>  53 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+			</image>
+			<image type="to_associate">pte/imagens/natureza/flor02.svg
+				<pos_x>  69 </pos_x> 
+				<pos_y>  53 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+			</image>
+			
+			<goal>
+				<pos_x>  84 </pos_x> 
+				<pos_y>  82 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">pte/imagens/alfabeto/F.svg
+				<sound>pte/sons/alfabeto/F.ogg</sound>
+			</image>
+		</association>
+
+	</associations>
+
+</game>
+
+<game type="associate">
+		
+		<global_parameters>
+		
+			<game_setup>
+				<type_to_associate>image_on_map</type_to_associate>
+				<type_to_drag>image</type_to_drag>
+			
+			<!-- amount of items to choose from -->
+			<min_draggable> 6 </min_draggable>
+			<max_draggable> 6 </max_draggable>
+			
+		</game_setup>
+
+		<map>
+			<image>examples/Alphabet/back.svg</image>
+			<pos_x>   5 </pos_x> 
+			<pos_y>  10 </pos_y>
+			<width>  70 </width>
+			<height> 85 </height>
+		</map>		
+
+		<draggable_items_area>
+			<pos_x>  80 </pos_x> 
+			<pos_y>  10 </pos_y>
+			<width>  15 </width>
+			<height> 80 </height>
+			
+
+			<amount_x> 1 </amount_x>
+			<amount_y> 6 </amount_y>
+			
+		</draggable_items_area>
+	
+		
+	
+		<background>
+			Kot26/liczenie/back1s.png
+		</background>		
+		
+	</global_parameters>
+	
+	<associations>	
+		<association>
+			<image type="to_associate">pte/imagens/natureza/arvore.svg
+				<pos_x>  3 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+			<image type="to_associate">pte/imagens/animais/abelha.svg
+                    <pos_x>  3 </pos_x>
+                    <pos_y>  3 </pos_y>
+                    <width>  27 </width>
+                    <height> 44 </height>
+
+             </image>
+
+
+			<goal>
+				<pos_x>  17 </pos_x> 
+				<pos_y>  34 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">pte/imagens/alfabeto/A.svg
+				<sound>pte/sons/alfabeto/A.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">pte/imagens/esportes/boladepraia.svg
+				<pos_x>  36 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+              <image type="to_associate">pte/imagens/esportes/boladefutebol.svg
+                 <pos_x>  36 </pos_x>
+                 <pos_y>  3 </pos_y>
+                 <width>  27 </width>
+                 <height> 44 </height>
+
+                        </image>
+			<image type="to_associate">pte/imagens/transportes/barco.svg
+				<pos_x>  36 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+			
+			<image type="to_associate">pte/imagens/transportes/bicicleta.svg
+				<pos_x>  36 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+			
+			<goal>
+				<pos_x>  50 </pos_x> 
+				<pos_y>  34 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">pte/imagens/alfabeto/B.svg
+				<sound>pte/sons/alfabeto/B.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+
+
+			<image type="to_associate">pte/imagens/animais/cavalo.svg
+				<pos_x>  69 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+			<image type="to_associate">pte/imagens/animais/cachorro.svg
+				<pos_x>  69 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+			<image type="to_associate">pte/imagens/diversos/casa.svg
+				<pos_x>  69 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+
+			<goal>
+				<pos_x>  84 </pos_x> 
+				<pos_y>  34 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">pte/imagens/alfabeto/C.svg
+				<sound>pte/sons/alfabeto/C.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">pte/imagens/animais/dinossauro.svg
+				<pos_x>  3 </pos_x> 
+				<pos_y>  53 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+
+			<goal>
+				<pos_x>  17 </pos_x> 
+				<pos_y>  82 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">pte/imagens/alfabeto/D.svg
+				<sound>pte/sons/alfabeto/D.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">pte/imagens/animais/elefante.svg
+				<pos_x>  36 </pos_x> 
+				<pos_y>  53 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+
+			<goal>
+				<pos_x>  50 </pos_x> 
+				<pos_y>  82 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">pte/imagens/alfabeto/E.svg
+				<sound>pte/sons/alfabeto/E.ogg </sound>
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">pte/imagens/natureza/flor.svg
+				<pos_x>  69 </pos_x> 
+				<pos_y>  53 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+			</image>
+			<image type="to_associate">pte/imagens/natureza/flor02.svg
+				<pos_x>  69 </pos_x> 
+				<pos_y>  53 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+			</image>
+			
+			<goal>
+				<pos_x>  84 </pos_x> 
+				<pos_y>  82 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">pte/imagens/alfabeto/F.svg
+				<sound>pte/sons/alfabeto/F.ogg</sound>
+			</image>
+		</association>
+
+	</associations>
+
+</game>
+
+<game type="associate">
+		
+		<global_parameters>
+		
+			<game_setup>
+				<type_to_associate>image_on_map</type_to_associate>
+				<type_to_drag>image</type_to_drag>
+			
+			<!-- amount of items to choose from -->
+			<min_draggable> 6 </min_draggable>
+			<max_draggable> 6 </max_draggable>
+			
+		</game_setup>
+
+		<map>
+			<image>examples/Alphabet/back.svg</image>
+			<pos_x>   5 </pos_x> 
+			<pos_y>  10 </pos_y>
+			<width>  70 </width>
+			<height> 85 </height>
+		</map>		
+
+		<draggable_items_area>
+			<pos_x>  80 </pos_x> 
+			<pos_y>  10 </pos_y>
+			<width>  15 </width>
+			<height> 80 </height>
+			
+
+			<amount_x> 1 </amount_x>
+			<amount_y> 6 </amount_y>
+			
+		</draggable_items_area>
+	
+		
+	
+		<background>
+			Kot26/liczenie/back1s.png
+		</background>		
+		
+	</global_parameters>
+	
+	<associations>	
+		<association>
+			<image type="to_associate">pte/imagens/natureza/arvore.svg
+				<pos_x>  3 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+			<image type="to_associate">pte/imagens/animais/abelha.svg
+                    <pos_x>  3 </pos_x>
+                    <pos_y>  3 </pos_y>
+                    <width>  27 </width>
+                    <height> 44 </height>
+
+             </image>
+
+
+			<goal>
+				<pos_x>  17 </pos_x> 
+				<pos_y>  34 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">pte/imagens/alfabeto/A.svg
+				<sound>pte/sons/alfabeto/A.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">pte/imagens/esportes/boladepraia.svg
+				<pos_x>  36 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+              <image type="to_associate">pte/imagens/esportes/boladefutebol.svg
+                 <pos_x>  36 </pos_x>
+                 <pos_y>  3 </pos_y>
+                 <width>  27 </width>
+                 <height> 44 </height>
+
+                        </image>
+			<image type="to_associate">pte/imagens/transportes/barco.svg
+				<pos_x>  36 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+			
+			<image type="to_associate">pte/imagens/transportes/bicicleta.svg
+				<pos_x>  36 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+			
+			<goal>
+				<pos_x>  50 </pos_x> 
+				<pos_y>  34 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">pte/imagens/alfabeto/B.svg
+				<sound>pte/sons/alfabeto/B.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+
+
+			<image type="to_associate">pte/imagens/animais/cavalo.svg
+				<pos_x>  69 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+			<image type="to_associate">pte/imagens/animais/cachorro.svg
+				<pos_x>  69 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+			<image type="to_associate">pte/imagens/diversos/casa.svg
+				<pos_x>  69 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+
+			<goal>
+				<pos_x>  84 </pos_x> 
+				<pos_y>  34 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">pte/imagens/alfabeto/C.svg
+				<sound>pte/sons/alfabeto/C.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">pte/imagens/animais/dinossauro.svg
+				<pos_x>  3 </pos_x> 
+				<pos_y>  53 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+
+			<goal>
+				<pos_x>  17 </pos_x> 
+				<pos_y>  82 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">pte/imagens/alfabeto/D.svg
+				<sound>pte/sons/alfabeto/D.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">pte/imagens/animais/elefante.svg
+				<pos_x>  36 </pos_x> 
+				<pos_y>  53 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+
+			<goal>
+				<pos_x>  50 </pos_x> 
+				<pos_y>  82 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">pte/imagens/alfabeto/E.svg
+				<sound>pte/sons/alfabeto/E.ogg </sound>
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">pte/imagens/natureza/flor.svg
+				<pos_x>  69 </pos_x> 
+				<pos_y>  53 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+			</image>
+			<image type="to_associate">pte/imagens/natureza/flor02.svg
+				<pos_x>  69 </pos_x> 
+				<pos_y>  53 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+			</image>
+			
+			<goal>
+				<pos_x>  84 </pos_x> 
+				<pos_y>  82 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">pte/imagens/alfabeto/F.svg
+				<sound>pte/sons/alfabeto/F.ogg</sound>
+			</image>
+		</association>
+
+	</associations>
+
+</game>
+
+<game type="associate">
+		
+		<global_parameters>
+		
+			<game_setup>
+				<type_to_associate>image_on_map</type_to_associate>
+				<type_to_drag>image</type_to_drag>
+			
+			<!-- amount of items to choose from -->
+			<min_draggable> 6 </min_draggable>
+			<max_draggable> 6 </max_draggable>
+			
+		</game_setup>
+
+		<map>
+			<image>examples/Alphabet/back.svg</image>
+			<pos_x>   5 </pos_x> 
+			<pos_y>  10 </pos_y>
+			<width>  70 </width>
+			<height> 85 </height>
+		</map>		
+
+		<draggable_items_area>
+			<pos_x>  80 </pos_x> 
+			<pos_y>  10 </pos_y>
+			<width>  15 </width>
+			<height> 80 </height>
+			
+
+			<amount_x> 1 </amount_x>
+			<amount_y> 6 </amount_y>
+			
+		</draggable_items_area>
+	
+		
+	
+		<background>
+			Kot26/liczenie/back1s.png
+		</background>		
+		
+	</global_parameters>
+	
+	<associations>	
+		<association>
+			<image type="to_associate">pte/imagens/natureza/arvore.svg
+				<pos_x>  3 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+			<image type="to_associate">pte/imagens/animais/abelha.svg
+                    <pos_x>  3 </pos_x>
+                    <pos_y>  3 </pos_y>
+                    <width>  27 </width>
+                    <height> 44 </height>
+
+             </image>
+
+
+			<goal>
+				<pos_x>  17 </pos_x> 
+				<pos_y>  34 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">pte/imagens/alfabeto/A.svg
+				<sound>pte/sons/alfabeto/A.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">pte/imagens/esportes/boladepraia.svg
+				<pos_x>  36 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+              <image type="to_associate">pte/imagens/esportes/boladefutebol.svg
+                 <pos_x>  36 </pos_x>
+                 <pos_y>  3 </pos_y>
+                 <width>  27 </width>
+                 <height> 44 </height>
+
+                        </image>
+			<image type="to_associate">pte/imagens/transportes/barco.svg
+				<pos_x>  36 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+			
+			<image type="to_associate">pte/imagens/transportes/bicicleta.svg
+				<pos_x>  36 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+			
+			<goal>
+				<pos_x>  50 </pos_x> 
+				<pos_y>  34 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">pte/imagens/alfabeto/B.svg
+				<sound>pte/sons/alfabeto/B.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+
+
+			<image type="to_associate">pte/imagens/animais/cavalo.svg
+				<pos_x>  69 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+			<image type="to_associate">pte/imagens/animais/cachorro.svg
+				<pos_x>  69 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+			<image type="to_associate">pte/imagens/diversos/casa.svg
+				<pos_x>  69 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+
+			<goal>
+				<pos_x>  84 </pos_x> 
+				<pos_y>  34 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">pte/imagens/alfabeto/C.svg
+				<sound>pte/sons/alfabeto/C.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">pte/imagens/animais/dinossauro.svg
+				<pos_x>  3 </pos_x> 
+				<pos_y>  53 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+
+			<goal>
+				<pos_x>  17 </pos_x> 
+				<pos_y>  82 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">pte/imagens/alfabeto/D.svg
+				<sound>pte/sons/alfabeto/D.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">pte/imagens/animais/elefante.svg
+				<pos_x>  36 </pos_x> 
+				<pos_y>  53 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+
+			<goal>
+				<pos_x>  50 </pos_x> 
+				<pos_y>  82 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">pte/imagens/alfabeto/E.svg
+				<sound>pte/sons/alfabeto/E.ogg </sound>
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">pte/imagens/natureza/flor.svg
+				<pos_x>  69 </pos_x> 
+				<pos_y>  53 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+			</image>
+			<image type="to_associate">pte/imagens/natureza/flor02.svg
+				<pos_x>  69 </pos_x> 
+				<pos_y>  53 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+			</image>
+			
+			<goal>
+				<pos_x>  84 </pos_x> 
+				<pos_y>  82 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">pte/imagens/alfabeto/F.svg
+				<sound>pte/sons/alfabeto/F.ogg</sound>
+			</image>
+		</association>
+
+	</associations>
+
+</game>
+
+</game_set>
+
+</omnitux>
